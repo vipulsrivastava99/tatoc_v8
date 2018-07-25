@@ -14,6 +14,7 @@ import org.testng.Reporter;
 
 import com.qait.acs.keywords.DragAndDropV8;
 import com.qait.acs.keywords.GridGateV8;
+import com.qait.acs.keywords.OpenStarPageAction;
 import com.qait.acs.keywords.TatocWelcomePage;
 import com.qait.acs.keywords.TestPageActions;
 import com.qait.acs.keywords.frameDungeonV8;
@@ -43,6 +44,7 @@ public TatocWelcomePage WelcomePageObject;
 public GridGateV8 gridGateObject; 
 public frameDungeonV8 frameDungeonObject;
 public DragAndDropV8 dragAndDropObject;
+public OpenStarPageAction openStarPage;
   public WebDriver getDriver() {
     return this.driver;
   }
@@ -52,6 +54,7 @@ public DragAndDropV8 dragAndDropObject;
 	  gridGateObject=new GridGateV8(driver);
    frameDungeonObject =new frameDungeonV8(driver);
    dragAndDropObject=new DragAndDropV8(driver);
+   openStarPage=new OpenStarPageAction(driver);
   }
   /**
    * Page object Initiation done

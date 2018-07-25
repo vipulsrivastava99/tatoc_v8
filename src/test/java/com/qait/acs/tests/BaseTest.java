@@ -25,7 +25,7 @@ public class BaseTest {
 	public void Start_Test_Session() {
 		counterForTests = 0;
 		test = new TestSessionInitiator(this.getClass().getSimpleName());
-	    test.launchApplication(getYamlValue("baseUrl"));
+	  //  test.launchApplication(getYamlValue("baseUrl"));
 	}
 
 	@BeforeMethod

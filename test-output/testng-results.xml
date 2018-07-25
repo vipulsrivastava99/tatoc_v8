@@ -1,162 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[The application url is :- http://10.0.1.86/tatoc]]>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- STEP01_STARS_01_VERIFY_SUCCESSFUL_LAUNCH_OF_THE_APPLICATION *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[The application url is :- https://cherwellcsstag.acs.org/CherwellPortal/STARS]]>
     </line>
     <line>
       <![CDATA[The test browser is :- chrome
 ]]>
     </line>
     <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[***** STARTING TEST STEP:- STEP01_LAUNCH_APPLICATION *****]]>
+      <![CDATA[Assertion Passed : User successfully launched the application]]>
     </line>
     <line>
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The application url is :- http://10.0.1.86/tatoc]]>
-    </line>
-    <line>
-      <![CDATA[The test browser is :- chrome
-]]>
+      <![CDATA[***** STARTING TEST STEP:- STEP02_STARS_02_VERIFY_COMPONENTS_PRESENT_ON_THE_LOGIN_PAGE *****]]>
     </line>
     <line>
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[***** STARTING TEST STEP:- STEP02_BASICCOURSE *****]]>
+      <![CDATA[TEST PASSED: element field_username is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Info : Username Field is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element field_password is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Info : Password Field is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_login is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Info : Login Button is Displayed]]>
     </line>
     <line>
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[User clicked on Basic Course.]]>
+      <![CDATA[***** STARTING TEST STEP:- STEP03_STARS_03_VERIFY_ALLOW_LOGIN_WITH_VALID_CREDENTIALS *****]]>
     </line>
     <line>
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[***** STARTING TEST STEP:- STEP03_GRIDGATE *****]]>
+      <![CDATA[User wrote values in username field]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[User wrote values in password field]]>
     </line>
     <line>
-      <![CDATA[User clicked on Green Box.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[***** STARTING TEST STEP:- STEP04_FRAMEDUNGEON *****]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[Switched to child frame]]>
-    </line>
-    <line>
-      <![CDATA[Switched to main frame]]>
-    </line>
-    <line>
-      <![CDATA[User clicked on repaintbox2 button.]]>
-    </line>
-    <line>
-      <![CDATA[Switched to child frame]]>
-    </line>
-    <line>
-      <![CDATA[Switched to main frame]]>
-    </line>
-    <line>
-      <![CDATA[User clicked on repaintbox2 button.]]>
-    </line>
-    <line>
-      <![CDATA[Switched to child frame]]>
-    </line>
-    <line>
-      <![CDATA[Switched to main frame]]>
-    </line>
-    <line>
-      <![CDATA[User clicked on repaintbox2 button.]]>
-    </line>
-    <line>
-      <![CDATA[Switched to child frame]]>
-    </line>
-    <line>
-      <![CDATA[Switched to main frame]]>
-    </line>
-    <line>
-      <![CDATA[User clicked on repaintbox2 button.]]>
-    </line>
-    <line>
-      <![CDATA[Switched to child frame]]>
-    </line>
-    <line>
-      <![CDATA[Switched to main frame]]>
-    </line>
-    <line>
-      <![CDATA[User clicked on repaintbox2 button.]]>
-    </line>
-    <line>
-      <![CDATA[Switched to child frame]]>
-    </line>
-    <line>
-      <![CDATA[Switched to main frame]]>
-    </line>
-    <line>
-      <![CDATA[User clicked on repaintbox2 button.]]>
-    </line>
-    <line>
-      <![CDATA[Switched to child frame]]>
-    </line>
-    <line>
-      <![CDATA[Switched to main frame]]>
-    </line>
-    <line>
-      <![CDATA[User clicked on proceed button.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[***** STARTING TEST STEP:- STEP05_DRAGANDDROP *****]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[User dragged drag box to dropbox]]>
+      <![CDATA[User clicked on login button]]>
     </line>
     <line>
       <![CDATA[Browser selected from 'Config.properties' file: chrome]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15905" started-at="2018-07-25T05:43:28Z" finished-at="2018-07-25T05:43:43Z">
+  <suite name="Default suite" duration-ms="73135" started-at="2018-07-25T11:42:39Z" finished-at="2018-07-25T11:43:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15905" started-at="2018-07-25T05:43:28Z" finished-at="2018-07-25T05:43:43Z">
-      <class name="com.qait.acs.tests.TestFirst">
-        <test-method status="PASS" signature="Start_Test_Session()[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="Start_Test_Session" is-config="true" duration-ms="8689" started-at="2018-07-25T11:13:28Z" finished-at="2018-07-25T11:13:36Z">
+    <test name="Default test" duration-ms="73135" started-at="2018-07-25T11:42:39Z" finished-at="2018-07-25T11:43:52Z">
+      <class name="com.qait.acs.tests.TestStarsCustomerPortal">
+        <test-method status="PASS" signature="Start_Test_Session()[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="Start_Test_Session" is-config="true" duration-ms="6132" started-at="2018-07-25T17:12:39Z" finished-at="2018-07-25T17:12:45Z">
           <reporter-output>
-            <line>
-              <![CDATA[The application url is :- http://10.0.1.86/tatoc]]>
-            </line>
-            <line>
-              <![CDATA[The test browser is :- chrome
-]]>
-            </line>
           </reporter-output>
         </test-method> <!-- Start_Test_Session -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2018-07-25T11:13:36Z" finished-at="2018-07-25T11:13:36Z">
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2018-07-25T17:12:45Z" finished-at="2018-07-25T17:12:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step01_Launch_Application()]]>
+                <![CDATA[public void com.qait.acs.tests.TestStarsCustomerPortal.Step01_Stars_01_Verify_Successful_Launch_Of_The_Application()]]>
               </value>
             </param>
           </params>
@@ -165,45 +91,48 @@
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[***** STARTING TEST STEP:- STEP01_LAUNCH_APPLICATION *****]]>
+              <![CDATA[***** STARTING TEST STEP:- STEP01_STARS_01_VERIFY_SUCCESSFUL_LAUNCH_OF_THE_APPLICATION *****]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="Step01_Launch_Application()[pri:1, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="Step01_Launch_Application" duration-ms="3239" started-at="2018-07-25T11:13:36Z" finished-at="2018-07-25T11:13:39Z">
+        <test-method status="PASS" signature="Step01_Stars_01_Verify_Successful_Launch_Of_The_Application()[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="Step01_Stars_01_Verify_Successful_Launch_Of_The_Application" duration-ms="17100" started-at="2018-07-25T17:12:45Z" finished-at="2018-07-25T17:13:02Z">
           <reporter-output>
             <line>
-              <![CDATA[The application url is :- http://10.0.1.86/tatoc]]>
+              <![CDATA[The application url is :- https://cherwellcsstag.acs.org/CherwellPortal/STARS]]>
             </line>
             <line>
               <![CDATA[The test browser is :- chrome
 ]]>
             </line>
+            <line>
+              <![CDATA[Assertion Passed : User successfully launched the application]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Step01_Launch_Application -->
-        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2018-07-25T11:13:39Z" finished-at="2018-07-25T11:13:39Z">
+        </test-method> <!-- Step01_Stars_01_Verify_Successful_Launch_Of_The_Application -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2018-07-25T17:13:02Z" finished-at="2018-07-25T17:13:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Step01_Launch_Application status=SUCCESS method=TestFirst.Step01_Launch_Application()[pri:1, instance:com.qait.acs.tests.TestFirst@5c3bd550] output=The application url is :- http://10.0.1.86/tatoc]]]>
+                <![CDATA[[TestResult name=Step01_Stars_01_Verify_Successful_Launch_Of_The_Application status=SUCCESS method=TestStarsCustomerPortal.Step01_Stars_01_Verify_Successful_Launch_Of_The_Application()[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550] output=The application url is :- https://cherwellcsstag.acs.org/CherwellPortal/STARS]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step01_Launch_Application()]]>
+                <![CDATA[public void com.qait.acs.tests.TestStarsCustomerPortal.Step01_Stars_01_Verify_Successful_Launch_Of_The_Application()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- take_screenshot_on_failure -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2018-07-25T11:13:39Z" finished-at="2018-07-25T11:13:39Z">
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="handleTestMethodName" is-config="true" duration-ms="2" started-at="2018-07-25T17:13:02Z" finished-at="2018-07-25T17:13:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step02_BasicCourse()]]>
+                <![CDATA[public void com.qait.acs.tests.TestStarsCustomerPortal.Step02_Stars_02_Verify_Components_Present_On_The_Login_Page()]]>
               </value>
             </param>
           </params>
@@ -212,41 +141,56 @@
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[***** STARTING TEST STEP:- STEP02_BASICCOURSE *****]]>
+              <![CDATA[***** STARTING TEST STEP:- STEP02_STARS_02_VERIFY_COMPONENTS_PRESENT_ON_THE_LOGIN_PAGE *****]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="Step02_BasicCourse()[pri:2, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="Step02_BasicCourse" duration-ms="252" started-at="2018-07-25T11:13:39Z" finished-at="2018-07-25T11:13:40Z">
+        <test-method status="PASS" signature="Step02_Stars_02_Verify_Components_Present_On_The_Login_Page()[pri:1, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="Step02_Stars_02_Verify_Components_Present_On_The_Login_Page" duration-ms="12288" started-at="2018-07-25T17:13:02Z" finished-at="2018-07-25T17:13:14Z">
           <reporter-output>
             <line>
-              <![CDATA[User clicked on Basic Course.]]>
+              <![CDATA[TEST PASSED: element field_username is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Info : Username Field is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element field_password is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Info : Password Field is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_login is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Info : Login Button is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Step02_BasicCourse -->
-        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2018-07-25T11:13:40Z" finished-at="2018-07-25T11:13:40Z">
+        </test-method> <!-- Step02_Stars_02_Verify_Components_Present_On_The_Login_Page -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2018-07-25T17:13:14Z" finished-at="2018-07-25T17:13:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Step02_BasicCourse status=SUCCESS method=TestFirst.Step02_BasicCourse()[pri:2, instance:com.qait.acs.tests.TestFirst@5c3bd550] output=User clicked on Basic Course.]]]>
+                <![CDATA[[TestResult name=Step02_Stars_02_Verify_Components_Present_On_The_Login_Page status=SUCCESS method=TestStarsCustomerPortal.Step02_Stars_02_Verify_Components_Present_On_The_Login_Page()[pri:1, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550] output=TEST PASSED: element field_username is displayed.]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step02_BasicCourse()]]>
+                <![CDATA[public void com.qait.acs.tests.TestStarsCustomerPortal.Step02_Stars_02_Verify_Components_Present_On_The_Login_Page()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- take_screenshot_on_failure -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2018-07-25T11:13:40Z" finished-at="2018-07-25T11:13:40Z">
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-07-25T17:13:14Z" finished-at="2018-07-25T17:13:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step03_GridGate()]]>
+                <![CDATA[public void com.qait.acs.tests.TestStarsCustomerPortal.Step03_Stars_03_Verify_Allow_Login_With_Valid_Credentials()]]>
               </value>
             </param>
           </params>
@@ -255,190 +199,50 @@
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[***** STARTING TEST STEP:- STEP03_GRIDGATE *****]]>
+              <![CDATA[***** STARTING TEST STEP:- STEP03_STARS_03_VERIFY_ALLOW_LOGIN_WITH_VALID_CREDENTIALS *****]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="Step03_GridGate()[pri:3, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="Step03_GridGate" duration-ms="485" started-at="2018-07-25T11:13:40Z" finished-at="2018-07-25T11:13:40Z">
+        <test-method status="PASS" signature="Step03_Stars_03_Verify_Allow_Login_With_Valid_Credentials()[pri:2, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="Step03_Stars_03_Verify_Allow_Login_With_Valid_Credentials" duration-ms="34706" started-at="2018-07-25T17:13:14Z" finished-at="2018-07-25T17:13:49Z">
           <reporter-output>
             <line>
-              <![CDATA[User clicked on Green Box.]]>
+              <![CDATA[User wrote values in username field]]>
+            </line>
+            <line>
+              <![CDATA[User wrote values in password field]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on login button]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Step03_GridGate -->
-        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2018-07-25T11:13:40Z" finished-at="2018-07-25T11:13:40Z">
+        </test-method> <!-- Step03_Stars_03_Verify_Allow_Login_With_Valid_Credentials -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2018-07-25T17:13:49Z" finished-at="2018-07-25T17:13:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Step03_GridGate status=SUCCESS method=TestFirst.Step03_GridGate()[pri:3, instance:com.qait.acs.tests.TestFirst@5c3bd550] output=User clicked on Green Box.]]]>
+                <![CDATA[[TestResult name=Step03_Stars_03_Verify_Allow_Login_With_Valid_Credentials status=SUCCESS method=TestStarsCustomerPortal.Step03_Stars_03_Verify_Allow_Login_With_Valid_Credentials()[pri:2, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550] output=User wrote values in username field]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step03_GridGate()]]>
+                <![CDATA[public void com.qait.acs.tests.TestStarsCustomerPortal.Step03_Stars_03_Verify_Allow_Login_With_Valid_Credentials()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- take_screenshot_on_failure -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2018-07-25T11:13:40Z" finished-at="2018-07-25T11:13:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step04_FrameDungeon()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[***** STARTING TEST STEP:- STEP04_FRAMEDUNGEON *****]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="Step04_FrameDungeon()[pri:4, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="Step04_FrameDungeon" duration-ms="2169" started-at="2018-07-25T11:13:40Z" finished-at="2018-07-25T11:13:42Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Switched to child frame]]>
-            </line>
-            <line>
-              <![CDATA[Switched to main frame]]>
-            </line>
-            <line>
-              <![CDATA[User clicked on repaintbox2 button.]]>
-            </line>
-            <line>
-              <![CDATA[Switched to child frame]]>
-            </line>
-            <line>
-              <![CDATA[Switched to main frame]]>
-            </line>
-            <line>
-              <![CDATA[User clicked on repaintbox2 button.]]>
-            </line>
-            <line>
-              <![CDATA[Switched to child frame]]>
-            </line>
-            <line>
-              <![CDATA[Switched to main frame]]>
-            </line>
-            <line>
-              <![CDATA[User clicked on repaintbox2 button.]]>
-            </line>
-            <line>
-              <![CDATA[Switched to child frame]]>
-            </line>
-            <line>
-              <![CDATA[Switched to main frame]]>
-            </line>
-            <line>
-              <![CDATA[User clicked on repaintbox2 button.]]>
-            </line>
-            <line>
-              <![CDATA[Switched to child frame]]>
-            </line>
-            <line>
-              <![CDATA[Switched to main frame]]>
-            </line>
-            <line>
-              <![CDATA[User clicked on repaintbox2 button.]]>
-            </line>
-            <line>
-              <![CDATA[Switched to child frame]]>
-            </line>
-            <line>
-              <![CDATA[Switched to main frame]]>
-            </line>
-            <line>
-              <![CDATA[User clicked on repaintbox2 button.]]>
-            </line>
-            <line>
-              <![CDATA[Switched to child frame]]>
-            </line>
-            <line>
-              <![CDATA[Switched to main frame]]>
-            </line>
-            <line>
-              <![CDATA[User clicked on proceed button.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Step04_FrameDungeon -->
-        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2018-07-25T11:13:42Z" finished-at="2018-07-25T11:13:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Step04_FrameDungeon status=SUCCESS method=TestFirst.Step04_FrameDungeon()[pri:4, instance:com.qait.acs.tests.TestFirst@5c3bd550] output=Switched to child frame]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step04_FrameDungeon()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- take_screenshot_on_failure -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-07-25T11:13:42Z" finished-at="2018-07-25T11:13:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step05_DragAndDrop()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[***** STARTING TEST STEP:- STEP05_DRAGANDDROP *****]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="Step05_DragAndDrop()[pri:5, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="Step05_DragAndDrop" duration-ms="384" started-at="2018-07-25T11:13:42Z" finished-at="2018-07-25T11:13:43Z">
-          <reporter-output>
-            <line>
-              <![CDATA[User dragged drag box to dropbox]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Step05_DragAndDrop -->
-        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2018-07-25T11:13:43Z" finished-at="2018-07-25T11:13:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Step05_DragAndDrop status=SUCCESS method=TestFirst.Step05_DragAndDrop()[pri:5, instance:com.qait.acs.tests.TestFirst@5c3bd550] output=User dragged drag box to dropbox]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.qait.acs.tests.TestFirst.Step05_DragAndDrop()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- take_screenshot_on_failure -->
-        <test-method status="PASS" signature="close_Test_Session()[pri:0, instance:com.qait.acs.tests.TestFirst@5c3bd550]" name="close_Test_Session" is-config="true" duration-ms="651" started-at="2018-07-25T11:13:43Z" finished-at="2018-07-25T11:13:43Z">
+        <test-method status="PASS" signature="close_Test_Session()[pri:0, instance:com.qait.acs.tests.TestStarsCustomerPortal@5c3bd550]" name="close_Test_Session" is-config="true" duration-ms="2886" started-at="2018-07-25T17:13:49Z" finished-at="2018-07-25T17:13:52Z">
           <reporter-output>
             <line>
               <![CDATA[Browser selected from 'Config.properties' file: chrome]]>
             </line>
           </reporter-output>
         </test-method> <!-- close_Test_Session -->
-      </class> <!-- com.qait.acs.tests.TestFirst -->
+      </class> <!-- com.qait.acs.tests.TestStarsCustomerPortal -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

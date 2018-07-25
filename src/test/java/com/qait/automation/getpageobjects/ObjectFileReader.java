@@ -135,6 +135,7 @@ public class ObjectFileReader {
       case Staging:
       case STAGING:
         tier = "STAGING/";
+        break;
       case TATOC :
     	  tier="TATOC/";
         break;
