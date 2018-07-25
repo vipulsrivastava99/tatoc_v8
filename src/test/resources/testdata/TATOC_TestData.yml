@@ -1,0 +1,4 @@
+baseUrl: http://10.0.1.86/tatoc
+Credentials:
+ Name: ABC
+ password: abc

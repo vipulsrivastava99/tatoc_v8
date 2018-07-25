@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Content Browse]" parallel="classes" data-provider-thread-count="1">
+  <listeners>
+    <listener class-name="com.qait.acs.tests.CustomReportCreator"/>
+  </listeners>
+  <test thread-count="4" name="Content Browse Template" parallel="instances">
+    <classes>
+      <class name="com.qait.acs.tests.ContentBrowse"/>
+    </classes>
+  </test> <!-- Content Browse Template -->
+</suite> <!-- Failed suite [Content Browse] -->
