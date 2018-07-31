@@ -2,6 +2,7 @@
 package com.qait.acs.keywords;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import com.qait.automation.getpageobjects.GetPage;
 
@@ -16,10 +17,6 @@ public class frameDungeonV8 extends GetPage {
 
 	public void switchframesprocess() {
 		switchToFrame("main");
-		//element("Btn_Box1").click();
-		//logMessage("User clicked on Basic Course.");
-		//switchToDefaultContent();
-
 		int flag = 0;
 		while (flag == 0) {
 			String s1 = element("get_color_box1").getAttribute("class");
@@ -42,5 +39,14 @@ public class frameDungeonV8 extends GetPage {
 
 			}
 		}
+		
 	}
+		public void checkDraganddropPageOpened(String pageurl) {
+			
+			Assert.assertEquals(getCurrentURL(),pageurl,"Drag and drop Page is not opened");
+			logMessage("Drag and drop Page is successfully opened");
+			
+		}
+
+	
 }

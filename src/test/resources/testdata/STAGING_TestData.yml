@@ -1,4 +1,8 @@
 baseUrl: https://cherwellcsstag.acs.org/CherwellPortal/STARS
+ValidUsername :  ACS1\\C00767
+ValidPassword :  AHt3m^9DW
+InValidUsername :  ACS1\\C007
+InValidPassword :  AHt3m^9
 Credentials:
   Name: ABC
   password: abc

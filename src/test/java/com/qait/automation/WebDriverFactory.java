@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -30,7 +31,7 @@ public class WebDriverFactory {
 
     if (seleniumconfig.get("seleniumserver").equalsIgnoreCase("local")) {
       if (browser.equalsIgnoreCase("firefox")) {
-        return getFirefoxDriver();
+        return getFirefoxDriver(seleniumconfig.get("driverpathfirefox")); 
       } else if (browser.equalsIgnoreCase("chrome")) {
         return getChromeDriver(seleniumconfig.get("driverpathChrome"));
       } else if (browser.equalsIgnoreCase("chromeProxy")) {
@@ -140,12 +141,16 @@ public class WebDriverFactory {
     return new SafariDriver();
   }
 
-  private static WebDriver getFirefoxDriver() {
-
-    FirefoxProfile profile = new FirefoxProfile();
-    profile.setPreference("browser.cache.disk.enable", false);
-    profile.setPreference("javascript.enabled", true);
-    return new FirefoxDriver();
-    //return new FirefoxDriver(profile);
+  private static WebDriver getFirefoxDriver(String driverpath) {
+	    FirefoxOptions profile =new FirefoxOptions();
+//	    //FirefoxProfile profile = new FirefoxProfile();
+//	    profile.setPreference("browser.cache.disk.enable", false);
+//	    profile.setPreference("javascript.enabled", true);
+	      System.setProperty("webdriver.gecko.driver", driverpath);
+	      profile.setCapability("marionette", false);
+//	      profile.addPreference("browser.cache.disk.enable", false);
+//	      profile.addPreference("javascript.enabled", true);
+	      //System.out.println("just befor profile");
+	    return new FirefoxDriver(profile);
   }
 }

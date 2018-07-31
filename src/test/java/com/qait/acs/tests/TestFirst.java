@@ -19,20 +19,24 @@ public class TestFirst extends BaseTest {
 	{
 
 		test.WelcomePageObject.clickOnBasicCourse();
+		test.WelcomePageObject.checkGridGatePageOpened("http://10.0.1.86/tatoc/basic/grid/gate");
 	}	
 	
 	@Test(priority=3)
 	public void Step03_GridGate(){
 
 		test.gridGateObject.clickOnGreenBox();
+		test.gridGateObject.checkFrameDungeonPageOpened("http://10.0.1.86/tatoc/basic/frame/dungeon");
 		}	
 	@Test(priority=4)
 	public void Step04_FrameDungeon(){
 	test.frameDungeonObject.switchframesprocess();
+	test.frameDungeonObject.checkDraganddropPageOpened("http://10.0.1.86/tatoc/basic/drag");
 		}	
 	@Test(priority=5)
 	public void Step05_DragAndDrop(){
 	test.dragAndDropObject.dragboxmouse();
+	test.dragAndDropObject.checkPopupWindowPageOpened("http://10.0.1.86/tatoc/basic/windows");
 		}	
 	
 }

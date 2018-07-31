@@ -1,6 +1,7 @@
 package com.qait.acs.keywords;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 
 import com.qait.automation.getpageobjects.GetPage;
 
@@ -21,6 +22,13 @@ public void dragboxmouse()
 
 	element("proceeddrag").click();
 	
+	
+}
+
+public void checkPopupWindowPageOpened(String pageurl) {
+	
+	Assert.assertEquals(getCurrentURL(),pageurl,"Assertion Failed : GridGate Page is not opened");
+	logMessage("Assertion Passed : GridGate Page is not opened");
 	
 }
 

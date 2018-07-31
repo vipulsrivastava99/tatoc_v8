@@ -14,7 +14,7 @@ import org.testng.Reporter;
 
 import com.qait.acs.keywords.DragAndDropV8;
 import com.qait.acs.keywords.GridGateV8;
-import com.qait.acs.keywords.OpenStarPageAction;
+import com.qait.acs.keywords.SSO_LoginPageAction;
 import com.qait.acs.keywords.TatocWelcomePage;
 import com.qait.acs.keywords.TestPageActions;
 import com.qait.acs.keywords.frameDungeonV8;
@@ -30,6 +30,7 @@ public class TestSessionInitiator {
   String appbaseurl;
   String applicationpath;
   String chromedriverpath;
+  String firefoxdriverpath;
   String datafileloc = "";
   static int timeout;
   Map<String, Object> chromeOptions = null;
@@ -44,7 +45,7 @@ public TatocWelcomePage WelcomePageObject;
 public GridGateV8 gridGateObject; 
 public frameDungeonV8 frameDungeonObject;
 public DragAndDropV8 dragAndDropObject;
-public OpenStarPageAction openStarPage;
+public SSO_LoginPageAction sso_LoginPageObject;
   public WebDriver getDriver() {
     return this.driver;
   }
@@ -54,8 +55,8 @@ public OpenStarPageAction openStarPage;
 	  gridGateObject=new GridGateV8(driver);
    frameDungeonObject =new frameDungeonV8(driver);
    dragAndDropObject=new DragAndDropV8(driver);
-   openStarPage=new OpenStarPageAction(driver);
-  }
+   sso_LoginPageObject=new SSO_LoginPageAction(driver);
+  } 
   /**
    * Page object Initiation done
    * 
@@ -90,7 +91,7 @@ public OpenStarPageAction openStarPage;
   }
 
   public Map<String, String> _getSessionConfig() {
-    String[] configKeys = {"tier", "browser", "seleniumserver", "seleniumserverhost", "timeout", "driverpathIE", "driverpathChrome"};
+    String[] configKeys = {"tier", "browser", "seleniumserver", "seleniumserverhost", "timeout", "driverpathIE", "driverpathChrome","driverpathfirefox"};
     Map<String, String> config = new HashMap<String, String>();
     for (String string : configKeys) {
       try {
